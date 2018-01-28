@@ -62,7 +62,6 @@ const CardList = ({ classes, items }: PropTypes) => {
             </CardActions>
           </Card>
         ))}
-      })
     </Wrapper>
   );
 };

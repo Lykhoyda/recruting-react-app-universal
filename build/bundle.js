@@ -808,8 +808,7 @@ var CardList = function CardList(_ref) {
           )
         )
       );
-    }),
-    "})"
+    })
   );
 };
 
