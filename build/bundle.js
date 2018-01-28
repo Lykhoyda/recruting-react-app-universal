@@ -326,7 +326,6 @@ app.get("*", function (req, res) {
   var promises = (0, _reactRouterConfig.matchRoutes)(_Routes2.default, req.path).map(function (_ref) {
     var route = _ref.route;
 
-    console.log(req.path);
     return route.loadData ? route.loadData(store) : null;
   }).map(function (promise) {
     if (promise) {
